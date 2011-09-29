@@ -4,15 +4,13 @@ package de.peerweidner.rpgframework.service.ressource.factory
 	import com.greensock.loading.MP3Loader;
 	import com.greensock.loading.SWFLoader;
 	import com.greensock.loading.VideoLoader;
+	import com.greensock.loading.XMLLoader;
 	import com.greensock.loading.core.LoaderCore;
 
 	public class LoaderFactory
 	{
 		/**
-		 * Create Loader 
-		 * @param url
-		 * @return LoaderCore
-		 * 
+		 * Creates loader accoring to file ending
 		 */
 		public static function createLoader(url : String) : LoaderCore
 		{

@@ -1,11 +1,12 @@
 package de.peerweidner.rpgframework.model.ressource.vo
 {
 	import com.greensock.loading.LoaderMax;
+	import com.greensock.loading.core.LoaderCore;
 
 	public class RessourceVO
 	{
 		private var _id : String;
-		private var _loader : LoaderMax;
+		private var _loader : LoaderCore;
 		private var _url : String;
 		
 		public function RessourceVO( id : String, url : String )
@@ -25,7 +26,7 @@ package de.peerweidner.rpgframework.model.ressource.vo
 		/**
 		 * Returns loader 
 		 */
-		public function get loader():LoaderMax
+		public function get loader():LoaderCore
 		{
 			return _loader;
 		}
@@ -46,7 +47,7 @@ package de.peerweidner.rpgframework.model.ressource.vo
 		/**
 		 * Sets the loader
 		 */
-		public function set loader(value:LoaderMax):void
+		public function set loader(value:LoaderCore):void
 		{
 			_loader = value;
 		}
