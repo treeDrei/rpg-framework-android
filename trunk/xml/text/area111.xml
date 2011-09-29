@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPC_LIST>
+	<NPC NAME="Robert">	
+		<CONVERSATION>
+			<TEXT NAME="question"></TEXT>
+			<TEXT NAME="answer">LALALALALA</TEXT>
+			<CONVERSATION_LIST>
+				<CONVERSATION>
+					<TEXT NAME="question">Was treibst du hier?</TEXT>
+					<TEXT NAME="answer">Tanz meinen Monitor ein!</TEXT>
+					<CONVERSATION_LIST>
+						<CONVERSATION>
+							<TEXT NAME="question">Was?</TEXT>
+							<TEXT NAME="answer">Ja, habe mir einen niegelnagelneuen Monitor geholt. Und der muss eingetanzt werden!</TEXT>
+								<CONVERSATION_LIST>
+									<CONVERSATION>
+										<TEXT NAME="question">Waaaas? HAHA, bist du verrückt.</TEXT>
+										<TEXT NAME="answer">Nein man, das ist notwendig, sonst ist die Auflösung zu niedrig!</TEXT>
+										<CONVERSATION_LIST>
+											<CONVERSATION>
+												<TEXT NAME="question">Und durchs Tanzen wirds höher?</TEXT>
+												<TEXT NAME="answer">Yooo, logisch!</TEXT>
+												<CONVERSATION_LIST>
+													<CONVERSATION>
+														<TEXT NAME="question">Logisch??? Und wie lange musst du das machen?</TEXT>
+														<TEXT NAME="answer">EXAKT 7 STUNDEN!!!</TEXT>
+														<CONVERSATION_LIST>
+															<CONVERSATION>
+																<TEXT NAME="question">Na dann, gib ihm!!!</TEXT>
+																<TEXT NAME="answer">Yoooo!</TEXT>
+															<CONVERSATION_LIST>
+																<CONVERSATION>
+																	<TEXT NAME="question">Hau rein!</TEXT>
+																	<TEXT NAME="answer">Ciao!</TEXT>
+																</CONVERSATION>
+															</CONVERSATION_LIST>
+
+															</CONVERSATION>
+														</CONVERSATION_LIST>
+
+													</CONVERSATION>
+												</CONVERSATION_LIST>
+											</CONVERSATION>
+										</CONVERSATION_LIST>
+										
+									</CONVERSATION>
+								</CONVERSATION_LIST>
+						
+						</CONVERSATION>
+					</CONVERSATION_LIST>
+				
+				</CONVERSATION>
+			</CONVERSATION_LIST>
+		</CONVERSATION>
+	</NPC>
+</NPC_LIST>

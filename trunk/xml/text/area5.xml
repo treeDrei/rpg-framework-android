@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPC_LIST>
+	<NPC NAME="FatFuckFighter">	
+		<CONVERSATION>
+			<TEXT NAME="question"></TEXT>
+			<TEXT NAME="answer">Ey, was sollte das...</TEXT>
+			<CONVERSATION_LIST>
+				<CONVERSATION>
+					<TEXT NAME="question">Easy?</TEXT>
+					<TEXT NAME="answer">Grrr.</TEXT>
+				</CONVERSATION>
+				<CONVERSATION>
+					<TEXT NAME="question">In your face motherfucker...</TEXT>
+					<TEXT NAME="answer">kthx.</TEXT>
+					<CONVERSATION_LIST>
+						<CONVERSATION>
+							<TEXT NAME="question">Was?</TEXT>
+							<TEXT NAME="answer">Ich wollte sterben.</TEXT>
+						</CONVERSATION>
+					</CONVERSATION_LIST>	
+				</CONVERSATION>
+			</CONVERSATION_LIST>
+		</CONVERSATION>
+	</NPC>
+</NPC_LIST>

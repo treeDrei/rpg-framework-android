@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPC_LIST>
+	<NPC NAME="Sebi">
+		<IMAGE_LIST>
+			<IMAGE TITLE="left_look">img/npc/sebi/sebi.png</IMAGE>
+			<IMAGE TITLE="right_look">img/npc/sebi/sebi.png</IMAGE>
+			<IMAGE TITLE="down_look">img/npc/sebi/sebi.png</IMAGE>
+			<IMAGE TITLE="up_look">img/npc/sebi/sebi.png</IMAGE>
+		</IMAGE_LIST>
+		<COORDINATE_LIST>
+			<COORDINATE NAME="x">11</COORDINATE>	
+			<COORDINATE NAME="y">6</COORDINATE>
+		</COORDINATE_LIST>
+	</NPC>
+</NPC_LIST>

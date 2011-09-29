@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPC_LIST>
+	<NPC NAME="Sebi">	
+		<CONVERSATION>
+			<TEXT NAME="question"></TEXT>
+			<TEXT NAME="answer">Joo Alex! Lang nicht mehr gesehen! Wie gehts dir?</TEXT>
+			<CONVERSATION_LIST>
+				<CONVERSATION>
+					<TEXT NAME="question">Bin gerade voll geflasht von den wäcken Sachen die mir aufm Weg hierher passiert sind! Ich muss jetzt erstmal eine rauchen! </TEXT>
+					<TEXT NAME="answer">Wo du's sagst, ich hab heute auch was derbe wäckes in der Zeitung gelesen!</TEXT>
+					<CONVERSATION_LIST>
+						<CONVERSATION>
+							<TEXT NAME="question">Hm?</TEXT>
+							<TEXT NAME="answer">Da stand, es soll heute alles einen Sinn ergeben, obwohl es keinen ergibt...</TEXT>
+								<CONVERSATION_LIST>
+									<CONVERSATION>
+										<TEXT NAME="question">Lol</TEXT>
+										<TEXT NAME="answer">Ja, der Retter der Welt sieht heute verrückte Sachen..</TEXT>
+										<CONVERSATION_LIST>
+											<CONVERSATION>
+												<TEXT NAME="question">Retter?</TEXT>
+												<TEXT NAME="answer">Er weiß aber nicht dass er der Retter oder so.</TEXT>
+												<CONVERSATION_LIST>
+													<CONVERSATION>
+														<TEXT NAME="question">Aha</TEXT>
+														<TEXT NAME="answer">Da stand dann noch dass er um die Welt zu Retten die Quersumme der erlebten Zahlen nehmen muss...</TEXT>
+														<CONVERSATION_LIST>
+															<CONVERSATION>
+																<TEXT NAME="question">Ich mag Quersummen nicht</TEXT>
+																<TEXT NAME="answer">Hehe</TEXT>
+
+
+															</CONVERSATION>
+														</CONVERSATION_LIST>
+
+													</CONVERSATION>
+												</CONVERSATION_LIST>
+											</CONVERSATION>
+										</CONVERSATION_LIST>
+										
+									</CONVERSATION>
+								</CONVERSATION_LIST>
+						
+						</CONVERSATION>
+					</CONVERSATION_LIST>
+				
+				</CONVERSATION>
+			</CONVERSATION_LIST>
+		</CONVERSATION>
+	</NPC>
+</NPC_LIST>

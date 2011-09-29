@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPC_LIST>
+	<NPC NAME="Robert">
+		<IMAGE_LIST>
+			<IMAGE TITLE="left_look">img/npc/robert/rob.swf</IMAGE>
+			<IMAGE TITLE="right_look">img/npc/robert/rob.swf</IMAGE>
+			<IMAGE TITLE="down_look">img/npc/robert/rob.swf</IMAGE>
+			<IMAGE TITLE="up_look">img/npc/robert/rob.swf</IMAGE>
+		</IMAGE_LIST>
+		<COORDINATE_LIST>
+			<COORDINATE NAME="x">3</COORDINATE>	
+			<COORDINATE NAME="y">3</COORDINATE>
+		</COORDINATE_LIST>
+	</NPC>
+</NPC_LIST>

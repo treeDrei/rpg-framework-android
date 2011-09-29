@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPC_LIST>
+	<NPC NAME="Niko">	
+		<CONVERSATION>
+			<TEXT NAME="question"></TEXT>
+			<TEXT NAME="answer">Hey yo, was geht?</TEXT>
+			<CONVERSATION_LIST>
+				<CONVERSATION>
+					<TEXT NAME="question">Alles easy!</TEXT>
+					<TEXT NAME="answer">Ich wärme mich schon mal mit dem Tee auf Tat vor! Hast du auch Bock?</TEXT>
+					<CONVERSATION_LIST>
+						<CONVERSATION>
+							<TEXT NAME="question">Ähh…die Tanke ist gerade am fisten!</TEXT>
+							<TEXT NAME="answer">Alles eeeeasy, dann gehen zum Tat, Bock auf ne Runde Schach?</TEXT>
+								<CONVERSATION_LIST>
+									<CONVERSATION>
+										<TEXT NAME="question">Uff, keine Zeit!</TEXT>
+										<TEXT NAME="answer">Arr… habe schon gute Taktiken ausgedacht, aber ich komme hier nicht weiter, weil ich vergessen habe, auf welchem Feld der weiße Reiter steht! Weißt du das zufällig?</TEXT>
+										<CONVERSATION_LIST>
+											<CONVERSATION>
+												<TEXT NAME="question">Lass uns später auf Schach treffen, dann  sag ich es dir!</TEXT>
+												<TEXT NAME="answer">Ok, aber warum willst du zu Sebi?</TEXT>
+												<CONVERSATION_LIST>
+													<CONVERSATION>
+														<TEXT NAME="question">Ich glaube ich habe Schäuble zum Platzen gebracht!</TEXT>
+														<TEXT NAME="answer">Nice</TEXT>
+														
+													</CONVERSATION>
+												</CONVERSATION_LIST>
+											</CONVERSATION>
+										</CONVERSATION_LIST>
+										
+									</CONVERSATION>
+								</CONVERSATION_LIST>
+						
+						</CONVERSATION>
+					</CONVERSATION_LIST>
+				
+				</CONVERSATION>
+			</CONVERSATION_LIST>
+		</CONVERSATION>
+	</NPC>
+</NPC_LIST>
