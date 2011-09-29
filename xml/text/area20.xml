@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPC_LIST>
+	<NPC NAME="Bjoern">	
+		<CONVERSATION>
+			<TEXT NAME="question"></TEXT>
+			<TEXT NAME="answer">Jo!</TEXT>
+			<CONVERSATION_LIST>
+				<CONVERSATION>
+					<TEXT NAME="question">Was treibst du?</TEXT>
+					<TEXT NAME="answer">Joa, warten!!</TEXT>
+					<CONVERSATION_LIST>
+						<CONVERSATION>
+							<TEXT NAME="question">Worauf? Und was ist das für ein wäcker Monitor?</TEXT>
+							<TEXT NAME="answer">Meine Version von SETI!</TEXT>
+								<CONVERSATION_LIST>
+									<CONVERSATION>
+										<TEXT NAME="question">WÄÄCK! Naja, muss weiter man! Hau rein!</TEXT>
+										<TEXT NAME="answer">Warte!</TEXT>
+										<CONVERSATION_LIST>
+											<CONVERSATION>
+												<TEXT NAME="question">Hm? Habs echt eilig!</TEXT>
+												<TEXT NAME="answer">Was meinst du wie hoch die Wahrscheinlichkeit ist, dass ich von denen 'ne Antwort bekomme?</TEXT>
+												<CONVERSATION_LIST>
+													<CONVERSATION>
+														<TEXT NAME="question">kP</TEXT>
+														<TEXT NAME="answer">So hoch wie die Moral der Bänker ist...</TEXT>
+														<CONVERSATION_LIST>
+															<CONVERSATION>
+																<TEXT NAME="question">Hehehe</TEXT>
+																<TEXT NAME="answer">Hahaha</TEXT>
+															<CONVERSATION_LIST>
+																<CONVERSATION>
+																	<TEXT NAME="question">Muss jetzt echt los! Hau rein!</TEXT>
+																	<TEXT NAME="answer">Ich geh jetzt Geocachen!</TEXT>
+
+																</CONVERSATION>
+															
+															</CONVERSATION_LIST>
+
+															</CONVERSATION>
+														</CONVERSATION_LIST>
+
+													</CONVERSATION>
+												</CONVERSATION_LIST>
+											</CONVERSATION>
+										</CONVERSATION_LIST>
+										
+									</CONVERSATION>
+								</CONVERSATION_LIST>
+						
+						</CONVERSATION>
+					</CONVERSATION_LIST>
+				
+				</CONVERSATION>
+			</CONVERSATION_LIST>
+		</CONVERSATION>
+	</NPC>
+</NPC_LIST>

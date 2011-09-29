@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLECTIBLE_LIST>
+	<COLLECTIBLE NAME="ziggie">
+		<IMAGE TITLE="medium">img/collectible/ghoulua_kippen.png</IMAGE>
+		<COORDINATE_LIST>
+			<COORDINATE NAME="x">12</COORDINATE>	
+			<COORDINATE NAME="y">2</COORDINATE>
+		</COORDINATE_LIST>
+	</COLLECTIBLE>
+</COLLECTIBLE_LIST>

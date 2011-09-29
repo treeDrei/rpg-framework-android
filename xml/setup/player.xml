@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PLAYER_DATA>
+	<PLAYER NAME="Alex">
+		<IMAGE_LIST NAME ="look">
+			<IMAGE TITLE="left">img/player/alex_move_left_r.png</IMAGE>
+			<IMAGE TITLE="right">img/player/alex_move_right_l.png</IMAGE>
+			<IMAGE TITLE="down">img/player/alex_front_r.png</IMAGE>
+			<IMAGE TITLE="up">img/player/alex_move_up_r.png</IMAGE>
+		</IMAGE_LIST>
+		<IMAGE_LIST NAME ="move">
+			<IMAGE TITLE="left">img/player/move_left.swf</IMAGE>
+			<IMAGE TITLE="right">img/player/move_right.swf</IMAGE>
+			<IMAGE TITLE="down">img/player/move_up.swf</IMAGE>
+			<IMAGE TITLE="up">img/player/move_down.swf</IMAGE>
+		</IMAGE_LIST>
+		<COORDINATE_LIST>
+			<COORDINATE NAME="x">10</COORDINATE>	
+			<COORDINATE NAME="y">8</COORDINATE>
+		</COORDINATE_LIST>
+		<MOVE_SPEED>0.3</MOVE_SPEED>
+	</PLAYER>
+</PLAYER_DATA>

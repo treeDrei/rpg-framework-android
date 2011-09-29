@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPC_LIST>
+	<NPC NAME="Bjoern">
+		<CONVERSATION>
+			<TEXT NAME="question"></TEXT>
+			<TEXT NAME="answer">Hello my friend!</TEXT>
+			<CONVERSATION_LIST>
+				<CONVERSATION>
+					<TEXT NAME="question">I like your TV programz.</TEXT>
+					<TEXT NAME="answer">I am sending it to outer space to have a convazzation with da alien people.</TEXT>
+					<CONVERSATION_LIST>
+						<CONVERSATION>
+							<TEXT NAME="question">I like the alienz. They are raping people.</TEXT>
+							<TEXT NAME="answer">I have alcohol the make them drunkz.</TEXT>
+							<!--
+							<CONVERSATION_LIST>
+								<CONVERSATION>
+									<TEXT NAME="question">I like the alienz. They are raping people.</TEXT>
+									<TEXT NAME="answer">I have alcohol the make them drunkz.</TEXT>
+								</CONVERSATION>
+								<CONVERSATION>
+									<TEXT NAME="question">I hat alienz.</TEXT>
+									<TEXT NAME="answer">I can understand. I stole your TV for this.</TEXT>
+								</CONVERSATION>
+							</CONVERSATION_LIST>
+							-->
+						</CONVERSATION>
+						<CONVERSATION>
+							<TEXT NAME="question">I hate alienz.</TEXT>
+							<TEXT NAME="answer">I can understand that. I stole your TV for this.</TEXT>
+						</CONVERSATION>
+					</CONVERSATION_LIST>
+				</CONVERSATION>
+				
+				<CONVERSATION>
+					<TEXT NAME="question">Have you seen the Tiger?</TEXT>
+					<TEXT NAME="answer">LOLOLOLOLOL, he is gone.</TEXT>
+					<CONVERSATION_LIST>
+						<CONVERSATION>
+							<TEXT NAME="question">Where can I find him?</TEXT>
+							<TEXT NAME="answer">He went to his natural habitat. The chineese resturant.</TEXT>
+						</CONVERSATION>
+					</CONVERSATION_LIST>
+				</CONVERSATION>
+				
+				<CONVERSATION>
+					<TEXT NAME="question">Hast du ein Rätzel für mich?</TEXT>
+					<TEXT NAME="answer">Nein.</TEXT>
+				</CONVERSATION>
+			</CONVERSATION_LIST>
+		</CONVERSATION>
+	</NPC>
+</NPC_LIST>

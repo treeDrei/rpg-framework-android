@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPC_LIST>
+	<NPC NAME="Dima">	
+		<CONVERSATION>
+			<TEXT NAME="question"></TEXT>
+			<TEXT NAME="answer">Hey Alex mein Jung!</TEXT>
+			<CONVERSATION_LIST>
+				<CONVERSATION>
+					<TEXT NAME="question">Was zum… treibst du hier?</TEXT>
+					<TEXT NAME="answer">Nicht so laut! Du vertreibst sonst die Kühe!</TEXT>
+					<CONVERSATION_LIST>
+						<CONVERSATION>
+							<TEXT NAME="question">Kühe?</TEXT>
+							<TEXT NAME="answer">Ja, die da oben am Himmel!</TEXT>
+								<CONVERSATION_LIST>
+									<CONVERSATION>
+										<TEXT NAME="question">Ist ja abgefahren, der heutige Tag ist echt WÄÄCK!</TEXT>
+										<TEXT NAME="answer">Yo!!!</TEXT>
+										<CONVERSATION_LIST>
+											<CONVERSATION>
+												<TEXT NAME="question">Muss aber echt weg, habs eilig!</TEXT>
+												<TEXT NAME="answer">Warte, ich stehe hier schon sehr lange und habe unzählige Dippen geraucht!</TEXT>
+												<CONVERSATION_LIST>
+													<CONVERSATION>
+														<TEXT NAME="question">?</TEXT>
+														<TEXT NAME="answer">Was hat die Zahl auf der Kuh zu bedeuten?</TEXT>
+														<CONVERSATION_LIST>
+															<CONVERSATION>
+																<TEXT NAME="question">Kein Plan, muss aber weiter!</TEXT>
+																<TEXT NAME="answer">Yo!</TEXT>
+
+															</CONVERSATION>
+														</CONVERSATION_LIST>
+
+													</CONVERSATION>
+												</CONVERSATION_LIST>
+											</CONVERSATION>
+										</CONVERSATION_LIST>
+										
+									</CONVERSATION>
+								</CONVERSATION_LIST>
+						
+						</CONVERSATION>
+					</CONVERSATION_LIST>
+				
+				</CONVERSATION>
+			</CONVERSATION_LIST>
+		</CONVERSATION>
+	</NPC>
+</NPC_LIST>

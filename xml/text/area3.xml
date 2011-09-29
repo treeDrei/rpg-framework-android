@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPC_LIST>
+	<NPC NAME="Alex">	
+		<CONVERSATION>
+			<TEXT NAME="question"></TEXT>
+			<TEXT NAME="answer">I want to piss on your face</TEXT>
+			<CONVERSATION_LIST>
+				<CONVERSATION>
+					<TEXT NAME="question">Piss on me, please!</TEXT>
+					<TEXT NAME="answer">Ohhh yeah!.</TEXT>
+				</CONVERSATION>
+				<CONVERSATION>
+					<TEXT NAME="question">Nice...</TEXT>
+					<TEXT NAME="answer">Easy.</TEXT>
+					<CONVERSATION_LIST>
+						<CONVERSATION>
+							<TEXT NAME="question">Lachs wieder einpacken?</TEXT>
+							<TEXT NAME="answer">Deutsch</TEXT>
+						</CONVERSATION>
+					</CONVERSATION_LIST>	
+				</CONVERSATION>
+			</CONVERSATION_LIST>
+		</CONVERSATION>
+	</NPC>
+</NPC_LIST>

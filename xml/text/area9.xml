@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPC_LIST>
+	<NPC NAME="Peer">	
+		<CONVERSATION>
+			<TEXT NAME="question"></TEXT>
+			<TEXT NAME="answer">Hoho</TEXT>
+			<CONVERSATION_LIST>
+				<CONVERSATION>
+					<TEXT NAME="question">Yo Peer du Alk! Was treibst du hier?</TEXT>
+					<TEXT NAME="answer">Ich Al Al Alkoholisiere...Glukk</TEXT>
+					<CONVERSATION_LIST>
+						<CONVERSATION>
+							<TEXT NAME="question">LOL, Warum?</TEXT>
+							<TEXT NAME="answer">Hab im Fernsehen was Schreckliches gesehen!</TEXT>
+								<CONVERSATION_LIST>
+									<CONVERSATION>
+										<TEXT NAME="question">Was denn?</TEXT>
+										<TEXT NAME="answer">Schäuble ist geplatzt, einfach so... es war so schrecklich</TEXT>
+										<CONVERSATION_LIST>
+											<CONVERSATION>
+												<TEXT NAME="question">Wenn du nur wüsstest!</TEXT>
+												<TEXT NAME="answer">Willst du einen Schluck?</TEXT>
+												<CONVERSATION_LIST>
+													<CONVERSATION>
+														<TEXT NAME="question">Nee lass mal!</TEXT>
+														<TEXT NAME="answer">Yo ich trink, hahaha.</TEXT>
+														<CONVERSATION_LIST>
+															<CONVERSATION>
+																<TEXT NAME="question">ich weiß :D</TEXT>
+																<TEXT NAME="answer">Woher?</TEXT>
+															<CONVERSATION_LIST>
+																<CONVERSATION>
+																	<TEXT NAME="question">ich sehe es!</TEXT>
+																	<TEXT NAME="answer">Echt?! Misst, ahaha</TEXT>
+																	<CONVERSATION_LIST>
+																		<CONVERSATION>
+																			<TEXT NAME="question">Wieviel hast du Intuss?</TEXT>
+																			<TEXT NAME="answer">Schau in meine Arme Baby!</TEXT>
+																			<CONVERSATION_LIST>
+																				<CONVERSATION>
+																					<TEXT NAME="question">Krass Alter! Muss aber weiter!</TEXT>
+																					<TEXT NAME="answer">Ok Peace!</TEXT>
+																				</CONVERSATION>
+																			</CONVERSATION_LIST>
+																		</CONVERSATION>
+																	</CONVERSATION_LIST>
+																</CONVERSATION>
+															</CONVERSATION_LIST>
+
+															</CONVERSATION>
+														</CONVERSATION_LIST>
+
+													</CONVERSATION>
+												</CONVERSATION_LIST>
+											</CONVERSATION>
+										</CONVERSATION_LIST>
+										
+									</CONVERSATION>
+								</CONVERSATION_LIST>
+						
+						</CONVERSATION>
+					</CONVERSATION_LIST>
+				
+				</CONVERSATION>
+			</CONVERSATION_LIST>
+		</CONVERSATION>
+	</NPC>
+</NPC_LIST>
