@@ -11,7 +11,8 @@ package de.peerweidner.rpgframework.service.ressource
 	
 	public class RessourceService extends Actor implements IRessourceService
 	{
-		public 
+		[Inject]
+		public var ressourceModel : RessourceModel;
 		
 		public function RessourceService()
 		{
@@ -20,126 +21,55 @@ package de.peerweidner.rpgframework.service.ressource
 		
 		/**
 		 * Load required ressources
+		 * @param loadID is a unique id for load progress
 		 */
-		public function load() : void
+		public function load(loadID : String) : void
 		{
 			// Loads missing ressources
-			loadRessources(ressourceModel.getMissingRessources());
+			loadRessources(,ressourceModel.getMissingRessources());
 		}
 		
 		/**
-		 * Load Items
-		 *
-		 * @param queueId String
-		 * @param resources Array.<ResourceVO>
-		 * @return LoaderMax
-		 *
+		 * Loads a list of ressourced
 		 */
-		public function loadRessources(queueId : String, resources : Vector.<RessourceVO>) : LoaderMax
+		public function loadRessources(loadID : String, ressources : Vector.<RessourceVO>) : void
 		{			
-			var queue : LoaderMax = new LoaderMax({name:queueId, onProgress:itemsLoaderProgressHandler, onComplete:itemsLoaderCompleteHandler, onError:itemsLoaderErrorHandler, auditSize:false});
-			var i : int = resources.length;
-			while (--i >= 0)
+			var queue : LoaderMax = new LoaderMax({name:loadID, onProgress:itemsLoaderProgressHandler, onComplete:itemsLoaderCompleteHandler, onError:itemsLoaderErrorHandler, auditSize:false});
+			for(var i : int = 0; i < ressources.length; i++)
 			{
-				// Check wether this item has already been loeaded
-				if(resources[i].loaded)
+				// Check wether this ressource has already been loeaded
+				if(ressources[i].loaded)
 				{
-					queue.append(createLoader(resources[i], false).loader);	
-					}					
+					ressources[i].loader = LoaderFactory.createLoader(ressources[i].url);
+					queue.append(ressources[i].loader);					
 				}
 			}
 			queue.load();
-			return queue;
 		}
 		
-		/**
-		 * Creats a loader for ressource vo
-		 */
-		private function createLoader(ressource : RessourceVO, autoLoad : Boolean = true) : RessourceVO
-		{
-			ressource.loader = LoaderFactory.createLoader(ressource.url);
-			ressource.loader.addEventListener(LoaderEvent.ERROR, itemLoaderErrorHandler, false, 0, true);
-			ressource.loader.addEventListener(LoaderEvent.PROGRESS, itemLoaderProgressHandler, false, 0, true);
-			ressource.loader.addEventListener(LoaderEvent.COMPLETE, itemLoaderCompleteHandler, false, 0, true);
-			
-			if (autoLoad)
-			{
-				ressource.loader.load();
-			}
-			
-			return ressource;
-		}
 		
 		/**
-		 *  Item loader error handler
-		 */
-		private function itemLoaderErrorHandler(event : LoaderEvent) : void
-		{
-			var ressource : RessourceVO = res  ((event.target as LoaderCore).name);
-			//dispatch(new ResourceServiceItemEvent(ResourceServiceItemEvent.ERROR, resource.id, resource.type, (event.target as LoaderCore).progress));
-		}
-		
-		/**
-		 * Item loader complete handler
-		 */
-		private function itemLoaderProgressHandler(event : LoaderEvent) : void
-		{
-			var ressource : RessourceVO = getLoader((event.target as LoaderCore).name);
-			//dispatch(new ResourceServiceItemEvent(ResourceServiceItemEvent.PROGRESS, resource.id, resource.type, (event.target as LoaderCore).progress));
-		}
-		
-		/**
-		 * Handles load complete
-		 */
-		private function itemLoaderCompleteHandler(event : LoaderEvent) : void
-		{
-			var ressource : RessourceVO = getLoader((event.target as LoaderCore).name);
-			//dispatch(new ResourceServiceItemEvent(ResourceServiceItemEvent.COMPLETE, resource.id, resource.type, (event.target as LoaderCore).progress));
-		}
-		
-		/**
-		 * Items Loader Error Handler
-		 *  
-		 * @param event
-		 * 
+		 * Ressource Loader Error Handler
 		 */
 		private function itemsLoaderErrorHandler(event : LoaderEvent) : void
 		{
-			dispatch(new ResourceServiceItemsEvent(ResourceServiceItemsEvent.ERROR, (event.target as LoaderMax).name, (event.target as LoaderMax).progress));
+			//dispatch(new ResourceServiceItemsEvent(ResourceServiceItemsEvent.ERROR, (event.target as LoaderMax).name, (event.target as LoaderMax).progress));
 		}
 		
 		/**
-		 * Items Loader Complete Handler
-		 * 
-		 * @param event
-		 * 
+		 * Ressource Loader Complete Handler
 		 */
 		private function itemsLoaderCompleteHandler(event : LoaderEvent) : void
 		{
-			dispatch(new ResourceServiceItemsEvent(ResourceServiceItemsEvent.COMPLETE, (event.target as LoaderMax).name, (event.target as LoaderMax).progress));
+			//dispatch(new ResourceServiceItemsEvent(ResourceServiceItemsEvent.COMPLETE, (event.target as LoaderMax).name, (event.target as LoaderMax).progress));
 		}
 		
 		/**
-		 * Items Loader Progress Handler
-		 * 
-		 * @param event
-		 * 
+		 * Ressource Loader Progress Handler
 		 */
 		private function itemsLoaderProgressHandler(event : LoaderEvent) : void
 		{
-			dispatch(new ResourceServiceItemsEvent(ResourceServiceItemsEvent.PROGRESS, (event.target as LoaderMax).name, (event.target as LoaderMax).progress));
-		}
-		
-		/**
-		 * Get laoder
-		 *
-		 * @param url
-		 * @return
-		 *
-		 */
-		private function getLoader(url : String) : ResourceVO
-		{
-			return _resources[url];
+			//dispatch(new ResourceServiceItemsEvent(ResourceServiceItemsEvent.PROGRESS, (event.target as LoaderMax).name, (event.target as LoaderMax).progress));
 		}
 	}
 }
