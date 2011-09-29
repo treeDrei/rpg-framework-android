@@ -26,11 +26,11 @@ package de.peerweidner.rpgframework.service.ressource
 		public function load(loadID : String) : void
 		{
 			// Loads missing ressources
-			loadRessources(,ressourceModel.getMissingRessources());
+			loadRessources(loadID,ressourceModel.getMissingRessources());
 		}
 		
 		/**
-		 * Loads a list of ressourced
+		 * Loads a list of ressources
 		 */
 		public function loadRessources(loadID : String, ressources : Vector.<RessourceVO>) : void
 		{			
