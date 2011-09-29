@@ -1,6 +1,7 @@
 package
 {
 	import de.peerweidner.rpgframework.context.RPGFrameworkContext;
+	import de.peerweidner.rpgframework.view.circlemenu.components.Circle;
 	
 	import flash.display.Sprite;
 	import flash.display.StageAlign;

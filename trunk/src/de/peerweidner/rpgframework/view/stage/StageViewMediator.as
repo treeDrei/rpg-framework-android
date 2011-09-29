@@ -21,6 +21,15 @@ package de.peerweidner.rpgframework.view.stage
 		{
 			addContextListener(StageViewEvent.BACK_LAYER_VIEW, backLayerViewHandler);
 			addContextListener(StageViewEvent.FRONT_LAYER_VIEW, frontLayerViewHandler);
+			addContextListener(StageViewEvent.CIRCLE_MENU_VIEW, circleMenuViewHandler)
+		}
+		
+		/**
+		 * Handles circle menu add request
+		 */
+		private function circleMenuViewHandler( e : StageViewEvent ):void
+		{
+			view.circleMenuView = e.view;
 		}
 		
 		/**
@@ -28,7 +37,6 @@ package de.peerweidner.rpgframework.view.stage
 		 */
 		private function frontLayerViewHandler( e : StageViewEvent ):void
 		{
-			// TODO Auto Generated method stub
 			
 		}
 		
