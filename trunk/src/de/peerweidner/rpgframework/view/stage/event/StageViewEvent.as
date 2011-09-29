@@ -8,6 +8,7 @@ package de.peerweidner.rpgframework.view.stage.event
 	{
 		public static const FRONT_LAYER_VIEW : String = "StageViewEvent.FRONT_LAYER_VIEW";
 		public static const BACK_LAYER_VIEW : String = "StageViewEvent.BACK_LAYER_VIEW";
+		public static const CIRCLE_MENU_VIEW : String = "StageViewEvent.CIRCLE_MENU_VIEW"; 
 		
 		public var view : BaseView;
 		
