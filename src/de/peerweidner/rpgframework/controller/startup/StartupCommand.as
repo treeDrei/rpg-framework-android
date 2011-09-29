@@ -10,6 +10,8 @@ package de.peerweidner.rpgframework.controller.startup
 			addCommand(InitializeStageCommand);
 			// Adds timeline view
 			addCommand(InitializeLayersCommand);
+			// Adds circle menu view
+			addCommand(InitializeCircleMenuCommand);
 			
 			// Executes added commands
 			super.execute();
